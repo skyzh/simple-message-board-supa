@@ -15,8 +15,14 @@ function App() {
       <nav className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
-            <div className="flex items-center">
+            <div className="flex items-center space-x-2">
               <h1 className="text-xl font-semibold text-gray-900">Message Board</h1>
+              <span className="inline-flex items-center py-0.5 text-xs font-medium text-gray-500">
+                powered by
+              </span>
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                Supabase
+              </span>
             </div>
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2">
